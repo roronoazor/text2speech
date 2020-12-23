@@ -77,11 +77,11 @@ export default class PDFTextComponent extends React.Component{
             <div style={{margin: "5px"}}>
                 {/* There is already an h1 in the page, let's not duplicate it. */}
             <Typography variant="h6" component="h6">
-                please select a .pdf or .txt file
+                please select a .txt file
             </Typography>
                 <form>
                     <input
-                        accept=".pdf, .txt"
+                        accept=".txt"
                         id="contained-button-file"              
                         multiple
                         type="file"
