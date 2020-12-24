@@ -98,7 +98,7 @@ function DeveloperComponent(){
             <ListItem>
               <ListItemAvatar>
                 <Avatar>
-                  <BeachAccessIcon />
+                  <WorkIcon />
                 </Avatar>
               </ListItemAvatar>
               <ListItemText primary="Teamwork" />

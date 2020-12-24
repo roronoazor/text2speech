@@ -87,12 +87,11 @@ export default class PDFTextComponent extends React.Component{
                         type="file"
                         onChange={(event)=>this.setState({file: event.target.files[0]})}
                     />
-                    <label htmlFor="contained-button-file">
+                    
                         <Button variant="contained" color="primary" component="span" onClick={()=>this.uploadFile()}>
                             {this.state.file ? "upload file" : "no file selected"}
                         </Button>
-                    </label>
-                    
+                                       
                 </form>
             </div>
           )    

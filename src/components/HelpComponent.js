@@ -68,26 +68,20 @@ function HelpComponent(){
             <Typography align="left" variant="body1" component="p">
             <List className={classes.list_items}>
             <ListItem>
-              <ListItemAvatar>
-                <Avatar>
-                  <WorkIcon />
-                </Avatar>
+              <ListItemAvatar>      
+                <Avatar alt="react_logo" src="/assets/logo192.png" />
               </ListItemAvatar>
               <ListItemText primary="React Js along with Material U.I design was used for front-end functionality and design" />
             </ListItem>
             <ListItem>
               <ListItemAvatar>
-                <Avatar>
-                  <WorkIcon />
-                </Avatar>
+                  <Avatar alt="google_logo" src="/assets/google_icon.jpg" />
               </ListItemAvatar>
               <ListItemText primary="Googles Text to Speech A.P.I engine was employed" />
             </ListItem>
             <ListItem>
               <ListItemAvatar>
-                <Avatar>
-                  <WorkIcon />
-                </Avatar>
+                <Avatar alt="django_logo" src="/assets/django_icon.jpg" />
               </ListItemAvatar>
               <ListItemText primary="python/django was used on the backend to extract text from the uploaded pdf (functionality still under work)" />
             </ListItem>
