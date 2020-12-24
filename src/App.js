@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import "./components/MenuBar";
 import ButtonAppBar from './components/MenuBar';
 import TextComponent from "./components/TextComponent";
 import PDFTextComponent from "./components/PDFTextComponent";
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import DeveloperComponent from './components/DeveloperComponent';
 import HelpComponent from './components/HelpComponent';
 
@@ -21,6 +20,14 @@ function HomeComponent(){
 }
 
 
+function ErrorComponent(){
+  return (
+    <div className="App">
+        <ButtonAppBar />
+        <p>oops! are you lost??? click on the home link in the navigation bar above to go back</p>
+    </div>
+  )
+}
 
 function App() {
   return (
@@ -28,6 +35,7 @@ function App() {
       <Route path="/" component={HomeComponent} exact/>
       <Route path="/developer" component={DeveloperComponent} />
       <Route path="/help" component={HelpComponent} />
+      <Route component={ErrorComponent} />
     </Switch>
   );
 }

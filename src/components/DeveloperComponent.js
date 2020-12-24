@@ -19,6 +19,7 @@ import ImageIcon from '@material-ui/icons/Image';
 import WorkIcon from '@material-ui/icons/Work';
 import BeachAccessIcon from '@material-ui/icons/BeachAccess';
 
+
 const useStyles = makeStyles({
   root: {
     maxWidth: 345,
@@ -59,9 +60,9 @@ function DeveloperComponent(){
                   Hi, Nice to Meet You
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  Need my services for a project you are working on??? get in touch
-                  <p>whatsapp contact: 08106439619, 08138539470</p>
-                  <p>email: ugoodumegwu@gmail.com</p>
+                  Need my services for a project you are working on??? Get in touch
+                  <p>Whatsapp contact: 08106439619, 08138539470</p>
+                  <p>Email: ugoodumegwu@gmail.com</p>
                 </Typography>
               </CardContent>
             </CardActionArea>
